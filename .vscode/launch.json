@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run tests",
+            "type": "node",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "runtimeArgs": [
+                "--require",
+                "./transpiler"
+            ],
+            "cwd": "${workspaceRoot}",
+            "args": [
+                "${workspaceRoot}/jasmine.ts"
+            ]
+        }
+    ]
+}

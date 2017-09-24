@@ -1,0 +1,7 @@
+{
+  "tslint.enable": true,
+  "editor.insertSpaces": true,
+  "files.exclude": {
+    "**/node_modules": true
+  }
+}
